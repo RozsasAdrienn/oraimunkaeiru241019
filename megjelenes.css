@@ -69,7 +69,12 @@ ul>li{
     margin-right: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
+    /*betűtípus váltás*/
+    font-family: 'Courier New', Courier, monospace;
+    /*sor magasság*/
+    line-height: 0,5cm;
 }
+
 
 #szoveg a{
     /*ne legyen aláhúzás*/
@@ -102,3 +107,32 @@ div p{
 div p{
     text-transform: capitalize;
 }*/
+
+h2{
+    /*aláhúzás*/
+    text-decoration: underline;
+}
+
+.vastag{
+    /*vastag*/
+    font-weight: bold;
+}
+
+h4{
+    /*dőlt betű*/
+    font-style: italic;
+    /*font-style: oblique;*/
+}
+
+#parizs{
+    /*sarkok lekerekítése*/
+    border-radius: 50%;
+    /*szélesség*/
+    width: 300px;
+    /*magasság*/
+    height: 300px;
+    /*trükk a középre rendezésre*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
